@@ -1,0 +1,78 @@
+body {
+  background-color: #f9f9f9;
+  font-family: "Oooh Baby", cursive;
+}
+
+.increase-font {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.todo-item:hover {
+  cursor: pointer;
+}
+
+.todo-item:hover {
+  background-color: #f5f5f5;
+}
+
+.todo-item .delete {
+  cursor: pointer;
+}
+
+.todo-item .delete:hover {
+  color: var(--danger);
+}
+
+.todo-item.completed .card-title {
+  text-decoration: line-through !important;
+}
+
+.todo-item.completed .card-title a {
+  color: #6c757d;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.navbar {
+  height: 70px;
+}
+
+label {
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-outline-secondary {
+  height: 31px;
+}
+
+.card-body {
+  font-family: "Cairo", sans-serif;
+}
+
+.navbar-brand,
+.navbar-light .navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  color: #f57c00;
+  transition: 2s;
+}
+
+.navbar-brand::after {
+  content: " Can do";
+  color: darkorange;
+  font-size: 27px;
+  font-family: "Oooh Baby", cursive;
+}
+
+.text-secondary {
+  color: #000 !important;
+}

@@ -1,0 +1,75 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{pageTitle}} - TodoApp</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="/assets/libs/font-awesome-5/css/all.min.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/libs/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="./"> I</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left Side Of Navbar -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Browse Todos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/create">Create Todo</a>
+            </li>
+          </ul>
+
+          <!-- Right Side Of Navbar -->
+
+        </div>
+      </div>
+    </nav>
+
+    <main class="py-4">
+      <div class="container">
+        {{{body}}}
+      </div>
+    </main>
+
+    <script src="/assets/libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="/assets/libs/bootstrap/bootstrap.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+
+</html>
